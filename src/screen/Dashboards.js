@@ -8,7 +8,7 @@ import './dashboard.css'
 const Dashboards = () => {
   let user_role = localStorage.getItem('user_role')
   return (
-    <div className="flex h-screen bg-gray-100 header-mb">
+    <div className=" h-screen bg-gray-100 header-mb md:flex">
       <Sidebar className="h-15 w-15 flex-shrink-0" />
 
       <div className="flex-1 flex flex-col overflow-hidden">
